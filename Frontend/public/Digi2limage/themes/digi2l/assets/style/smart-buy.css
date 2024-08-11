@@ -1,0 +1,60 @@
+.navbar .dropdown-toggle::after {
+    display: none;
+  }
+
+
+  .classification_section .dropdown-toggle::after {
+    display: none;
+  }
+  
+
+  .bubble::after {
+    content: '';
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: #0f0f10;
+    height: 85%;
+  }
+
+
+  /* 06-09-22 */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .hero_section {
+padding: 40px 0;
+    }
+    .mobile-nav {
+      overflow-x: scroll;
+        width: 100%;
+        display: inline-block;
+        white-space: nowrap;
+
+    }
+
+    .responsive_Tabs .nav-link {
+      width: max-content;
+    }
+
+    
+  }
+
+  .customNav .nav-link {
+    color: #3C23B6;
+  }
+  /* css modal start */
+  #smart_buy_page .modal-backdrop {
+    display: none;
+  }
+  #signup_modal, #LoginformModal, #proceedModal, #OTPModal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(81, 80, 80, 0.391)
+}
+  /* css modal end */

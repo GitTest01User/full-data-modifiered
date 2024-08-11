@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="25.992" viewBox="0 0 21 25.992">
+  <g id="gift" transform="translate(-9290 -1137.595)">
+    <g id="Download" transform="translate(9319.5 1139.074)">
+      <path id="Stroke_4" data-name="Stroke 4" d="M18.5,4.438v2.69c0,7.376-2.311,7.376-9.25,7.376S0,14.5,0,7.128V4.438" transform="translate(-28.25 9.259)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <g id="Rectangle_30491" data-name="Rectangle 30491" transform="translate(9290 1144.264)" fill="none" stroke="#555" stroke-width="1.5">
+      <path d="M5,0H16a5,5,0,0,1,5,5V7a1,1,0,0,1-1,1H1A1,1,0,0,1,0,7V5A5,5,0,0,1,5,0Z" stroke="none"/>
+      <path d="M5,.75H16A4.25,4.25,0,0,1,20.25,5V7a.25.25,0,0,1-.25.25H1A.25.25,0,0,1,.75,7V5A4.25,4.25,0,0,1,5,.75Z" fill="none"/>
+    </g>
+    <line id="Line_145" data-name="Line 145" y2="17" transform="translate(9298.5 1145.5)" fill="none" stroke="#555" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Line_146" data-name="Line 146" y2="17" transform="translate(9302.5 1145.5)" fill="none" stroke="#555" stroke-linecap="round" stroke-width="1.5"/>
+    <g id="Edit" transform="translate(9317.087 1125.399) rotate(9)">
+      <path id="Stroke_3" data-name="Stroke 3" d="M4.951.253A2.022,2.022,0,0,0,2.329.834C1,2.2,0,6.816,0,6.816S4.493,4.754,5.383,2.983A1.966,1.966,0,0,0,4.951.253Z" transform="matrix(0.951, 0.309, -0.309, 0.951, -10.973, 15.139)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Stroke_3-2" data-name="Stroke 3" d="M6.737,4.712a2.022,2.022,0,0,1-2.673.257C2.375,4.085,0,0,0,0S4.91.572,6.3,1.982A1.966,1.966,0,0,1,6.737,4.712Z" transform="matrix(-0.951, 0.309, -0.309, -0.951, -13.472, 21.684)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

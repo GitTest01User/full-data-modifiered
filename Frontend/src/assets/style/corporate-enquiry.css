@@ -1,0 +1,253 @@
+/* jayant adedd start*/
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .hero_section .carousel-item {
+       height: 100vh !important;
+   }
+}
+
+@media (max-width: 576px) { 
+
+    .works_section .arrow {
+       width: 20px;
+     }
+     #carouselExampleCaptions > div.carousel-inner > div.carousel-item  div  div > img{
+       height: 380px !important;
+       object-fit: contain !important;
+     }
+     #carouselExampleCaptions > div.carousel-inner > div:nth-child(1) > div > div:nth-child(3) > img{
+       height: 550px !important;
+       object-fit: contain ;
+     }
+     body > section:nth-child(7) > div.text-center.pt-4 > h1{
+       padding: 0 20px;
+     }
+     .slick-slide > div > div > div > div > div > p > small{
+       font-size:14px  !important;
+     }
+     .testimonial_section .testimonial_box-text p {
+       font-size: 14px !important;
+     }
+     .hero_section .carousel-item {
+       height: 80vh !important;
+   }
+   .hero_section .carousel-item .img-fluid{
+     margin-top: 0 !important;
+   }
+    }
+   
+   
+   
+   
+           .navbar .dropdown-toggle::after {
+       display: none;
+   }
+   
+   /* hero slider start */
+   .hero_section .carousel-item{
+     height:600px;
+   }
+   .hero_section .carousel-item h1{
+     padding-top:60px;
+   }
+   .hero_section .carousel-item .img-fluid{
+     margin-top:90px;
+   }
+   
+   /* end */
+   
+   
+   
+   .slick-next:before{
+     font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f178" !important;
+     color: #555555 !important;
+   font-size: 38px;
+   
+   }
+   .slick-prev:before{
+     font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f177" !important;
+     color: #555555 !important;
+     font-size: 38px;
+   }
+   .slick-prev{
+     left: -70px;
+   }
+   .slick-next{
+     right: -50px;
+   }
+   
+   @media(max-width:1024px){
+     .slick-prev{
+     left: -43px;
+     
+   }
+   .slick-next{
+     right: -23px;
+   }
+   .slick-prev:before{
+     font-size: 28px;
+   }
+   .slick-next:before{
+     font-size: 28px;
+   }
+   }
+   
+   /* Smartphones (portrait and landscape) ----------- */
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+     .slick-next:before {
+     font-size: 20px !important;
+     color:#3325B0 !important;
+   }
+   .slick-prev:before {
+     font-size: 20px !important;
+     color:#3325B0 !important;
+   }
+
+   /* testimonials slack */
+   .slick-track{
+    margin: 50px 0px 15px 0px !important;
+   }
+
+   .hero_section .carousel-item h1{
+    padding-top:25px;
+  }
+/* slider mobile view */
+.hero_section .carousel-item {
+       height: 100vh !important;
+   }
+  .carousel-inner .carousel-item:nth-child(1){
+    background-image:url('../images/corporateEnquiry/mobileSlide1.jpg')!important;
+    height:calc(100vh - 60px);
+    background-position:bottom;
+  }
+  .carousel-inner .carousel-item:nth-child(2){
+    background-image:url('../images/corporateEnquiry/mobileSlide2.jpg')!important;
+    height:calc(100vh - 60px);
+    background-position:bottom;
+  }
+  .carousel-inner .carousel-item:nth-child(3){
+    background-image:url('../images/corporateEnquiry/mobileSlide3.jpg')!important;
+    height:calc(100vh - 60px);
+    background-position:bottom;
+  }
+  /* product exchenge program how it works  */
+  #how_works .works_section h1{
+    padding-top: 20px !important;
+  }
+  #how_works .works_section h5{
+    padding-top: 40px !important;
+  }
+  /* how it works section */
+  #how_works .work_line {
+    margin-top: 35px;
+}
+body > section:nth-child(10) > div.text-center.pt-4{
+  height: 210px !important;
+}
+#service_enterprise p{
+font-size: 14px !important;
+}
+   }
+   
+   @media only screen and (max-device-width: 768px){
+     .slick-next:before {
+     font-size: 20px !important;
+     color:#3325B0 !important;
+   }
+   .slick-prev:before {
+     font-size: 20px !important;
+     color:#3325B0 !important;
+     /* margin-left:10px; */
+   }
+   }
+   
+   .querysection .details_color{
+     color:#070139;
+   }
+   
+   .morecontent span {
+       display: none;
+   }
+   .morelink {
+       display: block;
+       color:#3C23B6;
+   }
+   
+   
+   
+   /* 06-09-22 */
+   .fullWidth .hover_effect:hover {
+               background-image: url('../images/dealerEnquiry/hover.png'); 
+               background-repeat: no-repeat;
+                background-size: cover; 
+                background-color: #ffffff;
+                color: black !important;
+           }
+.fullWidth  .overclass0{
+               background-image: url('../images/dealerEnquiry/default/Location.svg');
+               background-repeat: no-repeat;
+               background-position: right;
+               height: 50px;
+           }
+    .fullWidth .hover_effect2:not(:hover) .overclass0{
+             background-image: url('../images/dealerEnquiry/default/Location.svg') !important;
+               background-repeat: no-repeat;
+               background-position: right;
+               height: 50px;
+           }
+          
+           /* Hover 0 */
+            .fullWidth .hover_effect2{
+               background-image: url('../images/dealerEnquiry/hover.png'); 
+               background-repeat: no-repeat;
+                background-size: cover; 
+                color: black !important;
+           }
+
+          
+           .fullWidth  .overclass{
+               background-image: url('../images/dealerEnquiry/default/3User.svg');
+               background-repeat: no-repeat;
+               background-position: right;
+               height: 50px;
+           }
+           .fullWidth .hover_effect:hover .overclass{
+               background-image: url('../images/dealerEnquiry/hover/3User.svg');
+               background-repeat: no-repeat;
+               background-position: right;
+               height: 50px;
+           }
+   
+           /* hover2 */
+           .fullWidth  .overclass2{
+               background-image: url('../images/dealerEnquiry/default/Paper.svg');
+               background-repeat: no-repeat;
+               background-position: right;
+               height: 50px;
+           }
+           .fullWidth  .hover_effect:hover .overclass2{
+               background-image: url('../images/dealerEnquiry/hover/Paper.svg');
+               background-repeat: no-repeat;
+               background-position: right;
+               height: 50px;
+           }
+        /* hover 3 */
+     
+        .fullWidth    .overclass3{
+               background-image: url('../images/dealerEnquiry/default/Star.svg');
+               background-repeat: no-repeat;
+               background-position: right;
+               height: 50px;
+           }
+           .fullWidth   .hover_effect:hover .overclass3{
+               background-image: url('../images/dealerEnquiry/hover/Star.svg');
+               background-repeat: no-repeat;
+               background-position: right;
+               height: 50px;
+           }
+ 
+   
+           .customNav .nav-link{
+     color: #3C23B6;
+    }

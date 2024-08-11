@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.448" height="74" viewBox="0 0 70.448 74">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ab01fc"/>
+      <stop offset="1" stop-color="#3325b0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_140550" data-name="Group 140550" transform="translate(-6.98 -52.623)">
+    <path id="Stroke_3" data-name="Stroke 3" d="M0,24.9C0,6.226,6.486,0,25.94,0s25.94,6.226,25.94,24.9S45.393,49.8,25.94,49.8,0,43.574,0,24.9Z" transform="translate(25.549 52.623)" opacity="0.2" fill="url(#linear-gradient)"/>
+    <g id="Call" transform="translate(9.014 71.839)">
+      <path id="Stroke_1" data-name="Stroke 1" d="M17.022,36.927C-3.576,17.771-.647,9,1.525,6.173,1.8,5.716,8.679-3.854,16.049,1.761c18.294,14.009-4.866,12.029,10.5,26.315s13.234-7.251,28.3,9.756c6.039,6.856-4.254,13.249-4.742,13.505C47.06,53.359,37.623,56.083,17.022,36.927Z" transform="translate(0 0)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+    <path id="Stroke_1-2" data-name="Stroke 1" d="M0,0C9.258,1.154,16.573,9.356,17.613,19.75" transform="translate(46.733 67.573)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Stroke_3-2" data-name="Stroke 3" d="M0,0C4.43.966,7.892,4.856,8.755,9.83" transform="translate(46.733 77.524)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

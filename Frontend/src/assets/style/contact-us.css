@@ -1,0 +1,26 @@
+.navbar .dropdown-toggle::after {
+    display: none;
+}
+.Contact_us .card{
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px #0000001A;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.Contact_us .contact_head{
+ color:#2f2465 !important;
+}
+.Contact_us .card{
+  margin-top:40%;
+}
+.Contact_us .map_image{
+  height:400px;
+  object-fit:cover;
+}
+}
+
+
+.customNav .nav-link{
+  color: #3C23B6;
+ }

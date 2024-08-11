@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.319" height="76.795" viewBox="0 0 80.319 76.795">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ab01fc"/>
+      <stop offset="1" stop-color="#3325b0"/>
+    </linearGradient>
+  </defs>
+  <g id="blog" transform="translate(5.455 12.058)">
+    <path id="Stroke_4" data-name="Stroke 4" d="M39.443,17.9C37.621,4.859,30.486,0,11.848,0-12.983,0-16.1,7.994-16.1,32.01s3.118,32.01,27.949,32.01c18.638,0,26.747-3.569,27.6-22.132" transform="translate(12.646 -1.283)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Stroke_3" data-name="Stroke 3" d="M31.4,1.881h0a7.485,7.485,0,0,0-10.567.642S7.212,17.911,2.488,23.252,1.225,35.964,1.225,35.964s7.807,2.473,12.465-2.791L32.043,12.448A7.487,7.487,0,0,0,31.4,1.881Z" transform="translate(32.957 12.843)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Stroke_5" data-name="Stroke 5" d="M0,0,11.209,9.924" transform="translate(50.267 19.392)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Path_149570" data-name="Path 149570" d="M-1,0H14.59" transform="translate(13.478 21.325)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_149" data-name="Line 149" x2="12.472" transform="translate(12.478 33.797)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-width="4"/>
+    <path id="Stroke_3-2" data-name="Stroke 3" d="M0,24.9C0,6.226,6.486,0,25.94,0s25.94,6.226,25.94,24.9S45.393,49.8,25.94,49.8,0,43.574,0,24.9Z" transform="translate(22.985 -12.058)" opacity="0.2" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

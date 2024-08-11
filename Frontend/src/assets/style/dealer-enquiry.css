@@ -1,0 +1,247 @@
+/* jayant code start */
+@media (max-width: 576px) {
+    #hero_banner .wrapper_herobanner {
+        height: 80vh !important;
+    }
+
+    #hero_banner .wrapper_herobanner h1 {
+        padding-top: 50px !important;
+    }
+
+    #hero_banner>div>div>div.row.justify-content-center>div.col-lg-5.mt-5>img {
+        position: unset !important;
+        height: auto !important;
+    }
+
+    .testimonial_section .testimonial_box-top {
+        justify-content: end !important;
+        min-height: 270px !important;
+    }
+
+    body>section.section_bg.Become_partnetSection.py-5>div.container>div>div>div.col-lg-8.col-md-8.border-start>h3 {
+        font-size: 14px;
+        text-align: left !important;
+        padding-left: 13px;
+        padding-top: 20px;
+    }
+}
+
+/* jayant code end */
+
+.navbar .dropdown-toggle::after {
+    display: none;
+}
+
+
+
+.slick-next:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f178" !important;
+    color: #555555 !important;
+    font-size: 38px;
+
+}
+
+.slick-prev:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f177" !important;
+    color: #555555 !important;
+    font-size: 38px;
+}
+
+.slick-prev {
+    left: -70px;
+}
+
+.slick-next {
+    right: -50px;
+}
+
+@media(max-width:1250px) {
+    #hero_banner>div.wrapper_herobanner.d-none.d-lg-block>div>div>div.col-lg-5.mt-5>img {
+        height: 417px !important;
+    }
+}
+
+@media(max-width:1024px) {
+
+    .slick-prev {
+        left: -43px;
+
+    }
+
+    .slick-next {
+        right: -23px;
+    }
+
+    .slick-prev:before {
+        font-size: 28px;
+    }
+
+    .slick-next:before {
+        font-size: 28px;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .slick-track {
+        margin: 50px 0px 15px 0px !important;
+    }
+
+    .slick-next:before {
+        font-size: 20px !important;
+        color: #3325B0 !important;
+    }
+
+    .slick-prev:before {
+        font-size: 20px !important;
+        color: #3325B0 !important;
+    }
+
+    #hero_banner .wrapper_herobanner {
+        height: 100vh !important;
+    }
+
+    #hero_banner .wrapper_herobanner {
+        background-image: url(../images/dealerEnquiry/dealerhero.png) !important;
+        background-repeat: no-repeat !important;
+        /* background-size: 100% 100% !important; */
+        background-position: bottom !important;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .slick-next:before {
+        font-size: 20px !important;
+        color: #3325B0 !important;
+    }
+
+    .slick-prev:before {
+        font-size: 20px !important;
+        color: #3325B0 !important;
+        /* margin-left:10px; */
+    }
+
+
+}
+
+/* 06-09-22 */
+#projectFacts .hover_effect:hover {
+    background-image: url('../images/dealerEnquiry/hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    color: black !important;
+}
+
+
+/* Hover 0 */
+#projectFacts .hover_effect2 {
+    background-image: url('../images/dealerEnquiry/hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black !important;
+}
+
+.overclass0 {
+    background-image: url('/Digi2limage/Location.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50px;
+}
+
+
+/* hover 1 */
+#projectFacts .overclass {
+    background-image: url('/Digi2limage/themes/digi2l/assets/images/dealerEnquiry/default/3User.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50px;
+}
+
+#projectFacts .hover_effect:hover .overclass {
+    background-image: url('/Digi2limage/themes/digi2l/assets/images/dealerEnquiry/hover/3User.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50px;
+}
+
+/* hover2 */
+#projectFacts .overclass2 {
+    background-image: url('/Digi2limage/themes/digi2l/assets/images/dealerEnquiry/default/Paper.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50px;
+}
+
+#projectFacts .hover_effect:hover .overclass2 {
+    background-image: url('/Digi2limage/themes/digi2l/assets/images/dealerEnquiry/hover/Paper.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50px;
+}
+
+/* hover 3 */
+
+#projectFacts .overclass3 {
+    background-image: url('/Digi2limage/themes/digi2l/assets/images/dealerEnquiry/default/Star.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50px;
+}
+
+#projectFacts .hover_effect:hover .overclass3 {
+    background-image: url('/Digi2limage/themes/digi2l/assets/images/dealerEnquiry/hover/Star.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50px;
+}
+
+
+#hero_banner .wrapper_herobanner h1 {
+    padding-top: 100px;
+}
+
+#hero_banner .wrapper_herobanner h1 {
+    padding-top: 100px;
+}
+
+
+.customNav .nav-link {
+    color: #3C23B6;
+}
+
+
+#Digi2lPartner {
+    cursor: grab;
+}
+
+
+.lightboxContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.lightboxContainer:after {
+    content: url("../images/playbutton.png");
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+
+}
+
+.lightboxContainer:hover:after {
+    opacity: 1;
+    transition: all .3625s ease;
+    opacity: 0.8;
+}
+
+.lightboxContainer img {
+    width: 100%;
+}

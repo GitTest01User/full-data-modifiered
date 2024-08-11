@@ -1,0 +1,20 @@
+.ScrollStyle
+{
+    max-height:400px;
+    overflow-y: scroll;
+    background:#fff;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.modal-content{
+    border-radius:15px;
+}
+.btn-close{
+    font-size:10px;
+    border:1px solid #464444;
+    border-radius:50%;
+}
+#prod_head .wrapper_phead h6{
+    color:#070139;
+}

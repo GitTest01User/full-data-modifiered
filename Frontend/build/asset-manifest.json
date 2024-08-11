@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d780967c.css",
+    "main.js": "/static/js/main.a5b5fd89.js",
+    "static/js/787.f260319c.chunk.js": "/static/js/787.f260319c.chunk.js",
+    "static/media/dealerhero.png": "/static/media/dealerhero.3e6316477999f4701735.png",
+    "static/media/mobile_bggdgd.png": "/static/media/mobile_bggdgd.ba7961b16cd52a9ec5b0.png",
+    "static/media/mobile_bgfdfd.png": "/static/media/mobile_bgfdfd.88b2f90d3d1e51d8b0ff.png",
+    "static/media/mobile_bg54454545.png": "/static/media/mobile_bg54454545.a058c0614d04a159035e.png",
+    "static/media/mobile_bg6454445.png": "/static/media/mobile_bg6454445.125b785c6e4f6a9dc00f.png",
+    "static/media/mobile_bg.png": "/static/media/mobile_bg.1b9a85e3beb3abbfcdd9.png",
+    "static/media/mobile_bg64454.png": "/static/media/mobile_bg64454.1511006922483578e3d5.png",
+    "static/media/mobile_bottom.png": "/static/media/mobile_bottom.c20823c1783db00f1eee.png",
+    "static/media/hover.svg": "/static/media/hover.1658a9c27d366fdb041d.svg",
+    "index.html": "/index.html",
+    "static/media/navheader.svg": "/static/media/navheader.a3bdccb220146dcd7439.svg",
+    "static/media/3User.svg": "/static/media/3User.819c5fc1b9bbe9f85168.svg",
+    "static/media/3Userdddff.svg": "/static/media/3Userdddff.39313a32c37af615d933.svg",
+    "static/media/Paper.svg": "/static/media/Paper.8349e3df0d9824bf041c.svg",
+    "static/media/Paperwhite.svg": "/static/media/Paperwhite.19f0a66917fb12e0e952.svg",
+    "static/media/Locationwhite.svg": "/static/media/Locationwhite.92eef006c96a1e981feb.svg",
+    "static/media/Star.svg": "/static/media/Star.2385f6cd96ffed01a375.svg",
+    "static/media/Starwhite.svg": "/static/media/Starwhite.fcc9bd7397e079d34470.svg",
+    "main.d780967c.css.map": "/static/css/main.d780967c.css.map",
+    "main.a5b5fd89.js.map": "/static/js/main.a5b5fd89.js.map",
+    "787.f260319c.chunk.js.map": "/static/js/787.f260319c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d780967c.css",
+    "static/js/main.a5b5fd89.js"
+  ]
+}

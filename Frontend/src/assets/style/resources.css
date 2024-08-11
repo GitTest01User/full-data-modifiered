@@ -1,0 +1,268 @@
+.navbar .dropdown-toggle::after {
+    display: none;
+  }
+
+
+  #hero_banner .wrapper_herobanner h1{
+  padding-top:140px;
+  font-size:32px;
+}
+
+  .slick-next:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f178" !important;
+    color: #555555 !important;
+    font-size: 38px;
+
+  }
+
+  .slick-prev:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f177" !important;
+    color: #555555 !important;
+    font-size: 38px;
+  }
+
+  .slick-prev {
+    left: -70px;
+  }
+
+  .slick-next {
+    right: -50px;
+  }
+
+  @media(max-width:1024px) {
+    .slick-prev {
+      left: -43px;
+
+    }
+
+    .slick-next {
+      right: -23px;
+    }
+
+    .slick-prev:before {
+      font-size: 28px;
+    }
+
+    .slick-next:before {
+      font-size: 28px;
+    }
+  }
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  #press .press-categories-div::-webkit-scrollbar {
+                display: none;
+            }
+#hero_banner .wrapper_herobanner h1{
+  padding-top:0px;
+}
+#hero_banner .accessories_img{
+  position: unset !important;
+  height:280px !important;
+}
+
+#press .py-1 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+#FAQ.frequentlyAsk_question .nav-pills .nav-item:first-child{
+  padding: 0.25rem 0.3rem;
+}
+#FAQ.frequentlyAsk_question .nav-pills .nav-item {
+  padding: 0.25rem 0.3rem;
+}
+#FAQ.frequentlyAsk_question .nav-pills .nav-item .nav-link{
+  padding: 0.25rem 0.3rem;
+  font-size: 0.527rem !important;
+}
+.slick-next:before{
+  color:#3C23B6 !important;
+  font-size: 20px;
+}
+.slick-prev:before{
+  color:#3C23B6 !important;
+  font-size: 20px;
+}
+}
+
+.customNav .nav-link{
+color: #3C23B6;
+}
+
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    color: #fff;
+    text-decoration:none;
+}
+  
+.navigation li {
+    display: inline;
+}
+  
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    background: #3325b0;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin:5px;
+}
+  
+.navigation li a:hover,
+.navigation li.active a {
+    background: #3325b0;
+	opacity: 0.7;
+  margin:5px;
+}
+/* 
+
+.deta{
+  background-size: cover !important;
+background-repeat: no-repeat;
+height: 600px !important;
+
+
+}
+
+
+
+
+#bosch .card-body {
+  border-radius: 15px;
+  border: 1px solid #DED4E4;
+  background: #FFF;
+  margin-bottom: 33px;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 26px 26px 26px 26px;
+  border: 1px solid #DED4E4;
+}
+
+.card-footer {
+  background: linear-gradient(to left, white 50%, #F7F2FF 50%);
+  background-size: 200%;
+  background-position: right;
+  transition: background-position 0.5s ease-out;
+  overflow: hidden;
+  border-top: 1px solid #DED4E4;
+}
+
+.card-footer:hover {
+  cursor: pointer;
+  background-position: left;
+  transition: background-position 0.5s ease-out;
+}
+
+.card-footer a {
+  color: #130138;
+}
+
+.card-footer h3 {
+  font-family: poppins;
+}
+
+.card-body p {
+  color: #868686;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 172.5%;
+}
+
+.card-footer a:hover {
+  color: #9743FE;
+}
+
+#success_stories .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #D6C2FF!important;
+  margin: 0 3px;
+}
+
+#success_stories .owl-dots button.owl-dot.active, .owl-nav button {
+  background-color: #4E13CD!important;
+}
+
+.tab-content {
+  padding: 0px;
+}
+
+.nav-pills > li > a {
+  color: #979797;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 168%;
+}
+
+.nav-pills > li.active > a, .nav-pills> li > a:hover {
+  background: transparent;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background: #fff;
+  border-bottom: 2px solid #793AFF!important;
+  font-family: font-bold !important;
+  font-weight: bolder;
+  src: url(https://digi2l.in/wp-content/themes/digi2l/assets/font/poppins/Poppins-Bold.ttf);
+  color: #706aa8;
+}
+
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0.25rem;
+
+ 
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background: #fff;
+  border-bottom: 2px solid #793AFF!important;
+
+  src: url(https://digi2l.in/wp-content/themes/digi2l/assets/font/poppins/Poppins-Bold.ttf);
+  color: #793AFF !important
+}
+
+.nav-pills > li.active > a, .nav-pills> li > a:hover {
+  color: #793AFF !important;
+  background: transparent;
+}
+
+
+.card-footer h3 {
+  font-family: poppins !important;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link {
+  width: 100%;
+  font-weight: 400 !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background: #fff;
+  border-bottom: 2px solid #793AFF!important;
+  src: url(https://digi2l.in/wp-content/themes/digi2l/assets/font/poppins/Poppins-Bold.ttf);
+  color: #793AFF !important;
+} */

@@ -1,0 +1,121 @@
+        .navbar .dropdown-toggle::after {
+    display: none;
+}
+.Contact_us .card{
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px #0000001A;
+}
+
+#hero_banner .wrapper_herobanner h1{
+    padding-top:100px;
+}
+
+.slick-next:before{
+  font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f178" !important;
+  color: #555555 !important;
+font-size: 38px;
+
+}
+.slick-prev:before{
+  font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f177" !important;
+  color: #555555 !important;
+  font-size: 38px;
+}
+.slick-prev{
+  left: -70px;
+}
+.slick-next{
+  right: -50px;
+}
+
+.offer_Section .offers_card {
+	padding: 15px;
+}
+
+@media only screen and (max-device-width: 780px){
+
+	#popmake-521 {
+    width: 95% !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (min-device-width: 768px){
+  #hero_banner .img-fluid{
+    height:508px;
+    position:unset !important;
+  }
+	
+}
+
+@media(max-width:1024px){
+  .slick-prev{
+  left: -43px;
+  
+}
+.slick-next{
+  right: -23px;
+}
+.slick-prev:before{
+  font-size: 28px;
+}
+.slick-next:before{
+  font-size: 28px;
+}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #hero_banner > div > div > div.row > div.col-lg-5.d-flex.align-items-center{
+    height:208px !important;
+  }
+
+  .slick-next:before{
+    font-size:20px !important;
+    color:#3325B0 !important;
+    margin-left: 5px !important;
+  }
+  .slick-prev:before{
+    font-size:20px !important;
+    color:#3325B0 !important;
+    margin-right: 5px !important;
+  }
+  #hero_banner .wrapper_herobanner h1{
+    padding-top:0px;
+    margin-top:0px !important;
+    padding:20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  #hero_banner .img-fluid{
+   position: unset !important;
+   height:297px !important;
+  }
+  .wrapper_herobanner{
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-device-width: 768px){
+  .slick-next:before{
+    font-size:20px !important;
+    color:#3325B0 !important;
+    margin-left: 5px !important;
+  }
+  .slick-prev:before{
+    font-size:20px !important;
+    color:#3325B0 !important;
+    margin-right: 5px !important;
+  }
+}
+
+.customNav .nav-link{
+  color: #3C23B6;
+ }
+ .querysection h6{
+  color:#070139;
+ }
+

@@ -1,0 +1,68 @@
+.navbar .dropdown-toggle::after {
+    display: none;
+}
+
+.share-btn {
+    width: 110px;text-align: left;
+}
+
+.share-btn span {
+    position: absolute;padding: 5px 0px 10px 5px; text-transform: capitalize;
+}
+
+#comments {
+    margin: 30px 0;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+#comments label {
+    display: block;
+    font-weight: 600;
+}
+
+#comments input {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+}
+
+#comments textarea#comment {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#comments input#submit {
+    background: transparent linear-gradient(109deg, #AB01FC 0%, #3325B0 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    padding: 13px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+#comments input#wp-comment-cookies-consent {
+    display: inline-block;
+    width: auto;
+}
+
+#comments .comment-form-cookies-consent label {
+    display: inline;
+    width: auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .share-btn {
+        width: 130px;text-align: left;
+    }
+
+    .share-btn span {
+        position: absolute;padding: 8px 0px 10px 2px; text-transform: capitalize;
+        font-size: 11px;
+    }
+}   

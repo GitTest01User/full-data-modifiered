@@ -1,0 +1,151 @@
+.navbar .dropdown-toggle::after {
+    display: none;
+  }
+
+  .slick-next:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f178" !important;
+    color: #555555 !important;
+    font-size: 38px;
+  }
+
+  .slick-prev:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f177" !important;
+    color: #555555 !important;
+    font-size: 38px;
+  }
+
+  .slick-prev {
+    left: -70px;
+  }
+
+  .slick-next {
+    right: -50px;
+  }
+/* calendar style start */
+  #fullCal > div.fc-toolbar.fc-header-toolbar > div.fc-center > button.fc-next-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right{
+    border: none;
+    background: unset;
+  }
+  #fullCal > div.fc-toolbar.fc-header-toolbar > div.fc-center > button.fc-prev-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right{
+    border: none;
+    background: unset;
+  }
+  #fullCal > div.fc-toolbar.fc-header-toolbar > div.fc-center > button.fc-today-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right.fc-state-disabled{
+    display: none;
+  }
+  #fullCal > div.fc-toolbar.fc-header-toolbar > div.fc-center > h2{
+    font-size: 20px;
+  }
+  #fullCal > div.fc-toolbar.fc-header-toolbar > div.fc-center{
+    display:flex;
+    justify-content: space-between;
+  }
+  /* calendar style end */
+  @media(max-width:1024px) {
+    .slick-prev {
+      left: -43px;
+
+    }
+
+    .slick-next {
+      right: -23px;
+    }
+
+    .slick-prev:before {
+      font-size: 28px;
+    }
+
+    .slick-next:before {
+      font-size: 28px;
+    }
+  }
+
+
+
+  /* 06-09-22 */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .how_it_work_section .responsive_Tabs {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      overflow: auto;
+      padding: 10px 0px;
+
+    }
+
+    .responsive_Tabs .nav-link {
+      width: max-content;
+    }
+  }
+
+  #smartSellHero .smart_product {
+    font-size: 13px;
+  }
+
+  .customNav .nav-link {
+    color: #3C23B6;
+  }
+
+  /* css for modal start */
+  #smart_sell_page .modal-backdrop {
+    display: none;
+  }
+
+  /* how it works start */
+
+  /* how it works end */
+
+ 
+#signup_modal, #LoginformModal, #proceedModal, #OTPModal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(81, 80, 80, 0.391)
+}
+ #GetPriceModal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(81, 80, 80, 0.391)
+ }
+
+  /* css for modal end */
+  
+  
+  
+  #formspinner {
+      display: none;
+  width: 50px;
+    height: 50px;
+    padding: 4px;
+      
+  }
+  
+  
+  #SmartSellFormStatus, #SmartSellFormStatusFail {
+      font-size: 22px;
+    font-weight: 600;
+    height: 100%;
+    display: flex;
+    align-items: center;
+        display: none;
+    padding: 10px;
+    justify-content: center;
+    border: 2px solid #6c1cd8;
+    border-radius: 3px;
+}
+
+#SmartSellFormStatus p, #SmartSellFormStatusFail p {
+    margin: 0;
+}
+

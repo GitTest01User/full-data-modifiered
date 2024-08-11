@@ -1,0 +1,723 @@
+
+        .navbar .dropdown-toggle::after {
+    display: none;
+}
+.Contact_us .card{
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px #0000001A;
+}
+
+#hero_banner .wrapper_herobanner h1{
+    padding-top:100px;
+}
+
+.review-page-banner img {
+  width: 100%;
+}
+
+.small { color: #A9A8AF; }
+
+.progress-bar {
+  background-color: #4A3AFF;
+}
+
+.w-15 {width: 15%;}
+
+.smartSellHero {
+  min-height: 450px;
+}
+
+.slick-next:before{
+  font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f178" !important;
+  color: #555555 !important;
+font-size: 38px;
+
+}
+.slick-prev:before{
+  font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f177" !important;
+  color: #555555 !important;
+  font-size: 38px;
+}
+.slick-prev{
+  left: -70px;
+}
+.slick-next{
+  right: -50px;
+}
+
+.mobile-only {display: none !important;}
+.mobile-only-flex {display: none !important;}
+.desktop-only {display: flex;}
+
+
+@media only screen and (min-device-width: 480px){
+  .bg-image {
+    height:auto;
+  }
+  .review-page-banner .bg-image h4 {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      width: 54%;
+  }
+  .review-page-banner .bg-image p {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px !important;
+      width: 49%;
+  }
+  .review-page-banner .bg-image h4.page2 {
+    width: 48%;
+  }
+  .review-page-banner .bg-image p.page2 {
+    width: 46%;
+  }
+}
+
+@media only screen and (min-device-width: 768px){
+  #hero_banner .img-fluid{
+    height:508px;
+    position:unset !important;
+  }
+
+  .bg-image {
+    height:auto;
+  }
+  .review-page-banner .bg-image h4 {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      width: 66%;
+  }
+  .review-page-banner .bg-image p {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px !important;
+      width: 50%;
+  }
+  .review-page-banner .bg-image h4.page2 {
+    width: 61%;
+  }
+  .review-page-banner .bg-image p.page2 {
+    width: 46%;
+  }
+}
+
+@media (min-width: 991px)
+#exciting-offers-page #smartSellHero small {
+    font-size: 2.5rem;
+}
+
+@media only screen and (min-device-width: 992px){
+  .bg-image {
+    height:auto;
+  }
+  #exciting-offers-page #smartSellHero h1 {
+    font-size: 1.75rem !important;
+}
+
+  .review-page-banner .bg-image h4 {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      width: 65%;
+  }
+  .review-page-banner .bg-image p {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px !important;
+      width: 42%;
+  }
+  .review-page-banner .bg-image h4.page2 {
+    width: 57%;
+  }
+  .review-page-banner .bg-image p.page2 {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-device-width: 1200px){
+  .bg-image {
+    height:auto;
+  }
+  .review-page-banner .bg-image h4 {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      width: 67%;
+  }
+  .review-page-banner .bg-image p {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 400;
+      font-size: 27px !important;
+      width: 49%;
+  }
+  .review-page-banner .bg-image h4.page2 {
+    width: 58%;
+  }
+  .review-page-banner .bg-image p.page2 {
+    width: 46%;
+  }
+}
+
+@media only screen and (min-device-width: 1400px){
+  .bg-image {
+    height: 449px;
+    /*padding-left: 12rem !important;*/
+  }
+  .review-page-banner .bg-image h4 {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 700;
+      font-size: 47px;
+      width: 70%;
+      padding-right: 12rem !important;
+  }
+  .review-page-banner .bg-image p {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 400;
+      font-size: 31px !important;
+      width: 47%;
+  }
+  .review-page-banner .bg-image h4.page2 {
+    width: 61%;
+  }
+  .review-page-banner .bg-image p.page2 {
+    width: 46%;
+  }
+}
+
+
+
+@media(max-width:1024px){
+
+  
+
+  .slick-prev{
+  left: -43px;
+  
+}
+.slick-next{
+  right: -23px;
+}
+.slick-prev:before{
+  font-size: 28px;
+}
+.slick-next:before{
+  font-size: 28px;
+}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #hero_banner > div > div > div.row > div.col-lg-5.d-flex.align-items-center{
+    height:208px !important;
+  }
+
+  .bg-image {
+    height:115px;
+  }
+  .review-page-banner .bg-image h4 {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      width: 72%;
+  }
+  .review-page-banner .bg-image p {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px !important;
+      width: 63%;
+  }
+
+  .review-page-banner .bg-image h4.page2 {
+    width: 57%;
+  }
+  .review-page-banner .bg-image p.page2 {
+    width: 49%;
+  }
+
+  .slick-next:before{
+    font-size:20px !important;
+    color:#3325B0 !important;
+    margin-left: 5px !important;
+  }
+  .slick-prev:before{
+    font-size:20px !important;
+    color:#3325B0 !important;
+    margin-right: 5px !important;
+  }
+  #hero_banner .wrapper_herobanner h1{
+    padding-top:0px;
+    margin-top:0px !important;
+    padding:20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  #hero_banner .img-fluid{
+   position: unset !important;
+   height:297px !important;
+  }
+  .wrapper_herobanner{
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-device-width: 768px){
+  #exciting-offers-page #smartSellHero {
+    
+    background-size: cover;
+    padding: 30px 0px 10px 0px;
+}
+  .mobile-only {display: inline !important;}
+  .mobile-only-flex {display: flex !important;}
+  .desktop-only {display: none !important;}
+  .mobile-only .step-label {
+    position: relative;
+    top: -30px;
+    left: 42px;
+}
+.mobile-only .line { width:90% }
+  .product-review-form ul.appliance_card_nav{
+    width: 83%;
+  }
+
+  
+
+  .review-container { padding-left: 2.6rem !important; padding-right: 2.6rem!important; }
+  .review-container-payment { padding-left: 2.6rem !important; padding-right: 1.7rem!important; }
+
+  .product-review-form .text-center h3{ font-size: calc(1.1rem + .6vw); }
+
+  .payment-options {width: 110%; max-width: unset;}
+  .payment-options .owl-carousel { width:auto; padding-left:0px; }
+  .payment-options .owl-carousel .owl-stage-outer{ height:auto!important; }
+  .payment-options .owl-carousel a{ text-decoration: none; }
+
+
+  .product-review-form .form-check-input {
+      height: 15px !important;
+      width: 15px !important;
+      margin-right: 5px !important;
+      margin-top: 0;
+  }
+
+  .net-banking .radio-btn{ float: left; padding-top: 0.75rem; }
+  .net-banking .card img{ width:100%; }
+  .emi-lable { font-size: 6px !important; }
+  
+  .payment-options .owl-carousel li{ margin-right:10px; }
+  .payment-options .owl-carousel .owl-item{ background: #FBFBFD; border: 1px solid #EFF0F7; border-radius: 8px }
+
+  .btn-purple, .btn-purple-secondary:hover {
+      background: #6A38E9;
+      border-radius: 8px;
+      color: #fff;
+  }
+
+  .text-muted { margin-top: 10px; font-size: .575em;}
+
+  .btn-purple-secondary {border-radius: 8px;}
+  #v-pills-tabContent h6{ font-size:8px; color: #A9A8AF;}
+  .product-review-form ul.appliance_card_nav li{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  .slick-next:before{
+    font-size:20px !important;
+    color:#3325B0 !important;
+    margin-left: 5px !important;
+  }
+  .slick-prev:before{
+    font-size:20px !important;
+    color:#3325B0 !important;
+    margin-right: 5px !important;
+  }
+
+  .email-field {
+    margin-top: 0px !important;
+  }
+
+  .product-review-form .checkboxes .form-check-input { margin-right:0px !important; margin-top: 6px;}
+  .product-review-form .checkboxes .form-check-label { padding-left:0px; }
+  .btn-wrapper.d-flex {display: block !important;}
+  .btn-gradient {width: 100%; margin-left: 0px;}
+  .pay-now { width: auto; }
+  .btn-purple-secondary {width: 100%; margin-left: 0px; margin-bottom: 10px;}
+}
+
+.customNav .nav-link{
+  color: #3C23B6;
+ }
+ .querysection h6{
+  color:#070139;
+ }
+
+
+
+ .appliance_card_nav {
+  border-radius: 11px;
+  background: #EFF0F6 0% 0% no-repeat padding-box !important;
+  width: 100%;
+}
+
+.appliances_card:hover {
+  background: #EFF0F6 0% 0% no-repeat padding-box !important;
+}
+
+.review-form label {
+  font-weight: 500;
+}
+
+.order-summary h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+.order-summary .appliance_card_nav {
+  background: #F5F7FB !important;
+  border: 1px solid #EFF0F7!important;
+  border-radius: 11px!important;
+}
+.order-summary .appliance_card_nav small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #7C7C7C;
+}
+.order-summary .appliance_card_nav p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+.product-review-form h3, .product-review-form h5, .product-review-form h6, .product-review-form label{
+  color: #170F49;
+}
+
+.progresses{
+  display: flex;
+  align-items: center;
+  
+ }
+
+.line{
+  height: 6px;
+  background: #EFF0F7;
+  margin: 16px;
+  border-radius: 12px;
+}
+
+.steps{
+  display: flex;
+  background-color: #EFF0F7;
+  color: #6F6C90;
+  font-size: 14px;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+.step-label {
+  position: absolute;
+  top: 40px;
+}
+
+.active.line , .active.steps{
+  background-color: #4A3AFF;
+  color: #fff;
+}
+.step-label{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #6F6C90;
+  width: 90px;
+}
+.step-label.active {
+  font-weight: 500;
+  color: #383838;
+}
+
+.line {
+  /* width: 120px; */
+  width: 40px;
+  margin: 6px;
+}
+.nav-pills-custom {
+  gap: 1rem;
+}
+.nav-pills-custom .nav-link{
+  width: calc(50% - 1rem);
+}
+
+.mainNav{
+  height: 85px;
+}
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) { 
+
+  .line {
+    width: 100px;
+    margin: 8px;
+  }
+  .step-label{
+    width: 130px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+  .line {
+    width: 140px;
+    margin: 10px;
+  }
+  .step-label{
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .nav-pills-custom {
+    gap: 0;
+  }
+  .nav-pills-custom .nav-link{
+    width:auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  /*.product-review-form ul.appliance_card_nav{
+    width: 80%;
+  }*/
+  
+  .line {
+    width: 190px;
+    margin: 12px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+#exciting-offers-page #smartSellHero {
+    
+    background-size: cover;
+    padding: 30px 0px 10px 0px;
+}
+
+
+
+#exciting-offers-page #smartSellHero h1{
+    font-size: 2.7rem !important;
+}
+
+#exciting-offers-page #smartSellHero small{
+    font-size: 2.1rem;
+}
+  .line {
+    width: 260px;
+    margin: 14px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  #exciting-offers-page #smartSellHero .product-review-banner-text{
+    min-height: 429px;
+}
+  .line {
+    width: 300px;
+    margin: 16px;
+  }
+}
+
+@media (min-width: 1601px){
+  .bg-image {
+    height: 449px;
+    /*padding-left: 12rem !important;*/
+  }
+
+  #exciting-offers-page #smartSellHero h1{
+    font-size: 3.5rem !important;
+}
+
+#exciting-offers-page #smartSellHero small{
+    font-size: 2.3rem;
+}
+  .review-page-banner .bg-image h4 {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 700;
+      font-size: 62px;
+      width: 70%;
+      padding-right: 12rem !important;
+  }
+  
+  .review-page-banner .bg-image p {
+      /*font-family: 'Poppins';*/
+      font-style: normal;
+      font-weight: 400;
+      font-size: 41px !important;
+      width: 47%;
+  }
+  .review-page-banner .bg-image h4.page2 {
+    width: 61%;
+  }
+  .review-page-banner .bg-image p.page2 {
+    width: 46%;
+  }
+}
+
+.nav-pills-custom .nav-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1D1D1D;
+  background: #FBFBFD;
+  border: 1px solid #EFF0F7;
+  position: relative;
+  /* text-transform: capitalize; */
+}
+
+ul.nav-pills-custom .nav-link {
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 20px; */
+    color: #1D1D1D;
+    background: none;
+    border: none;
+    position: relative;
+    /* text-transform: capitalize; */
+    width: 180px;
+    padding: 40px 0px 30px 0px;
+}
+
+
+.nav-pills-custom .nav-link.active {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6A38E9;
+  background: #F2EDFF;
+  border-left: 10px solid #6A38E9;
+
+}
+
+.nav-pills-custom .nav-link.active::before {
+  opacity: 1;
+}
+/* 6-feb-2023 */
+
+.appliance_card_nav .border-start {
+  border: 1px solid #EFF0F7;
+  height: 88px;
+  width: 1px;
+}
+.appliance_card_nav .border-bottom {
+  border: 1px solid #EFF0F7;
+  height: 1px;
+  width: 100%;
+}
+
+.appliances_card label.mark-Light {
+  font-size: 12px;
+
+  color: #1B1B1B;
+}
+
+.appliances_card label.poppins-Medium{
+  color: #464646;
+}
+
+.product-review-form .input-wrapper {
+  /* background: #F5F7FB; */
+  background: rgba(245, 247, 251, 0.44);
+    border: 1px solid #EFF0F7;
+    border-radius: 11px;
+}
+
+.product-review-form .input-wrapper .form-control, .product-review-form .input-wrapper .form-control:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  /*color: #A9A8AF;*/
+  padding: 0;
+}
+
+
+.product-review-form .input-wrapper .form-select, .product-review-form .input-wrapper .form-select:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  color: #A9A8AF;
+  padding: 0;
+}
+
+select {
+  -webkit-appearance: menulist-button;
+  color: black;
+}
+
+select:invalid {
+  color: #A9A8AF;
+}
+
+.product-review-form .input-wrapper .form-label{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.product-review-form  .form-control.is-valid, .was-validated .form-control:valid, 
+.product-review-form  .form-select.is-valid, .was-validated .form-select:valid {
+    border-color: transparent;
+    background: none;
+}
+
+.product-review-form .form-check-input{
+  height: 20px;
+  width: 20px;
+  margin-right: 16px;
+  margin-top: 0;
+}
+
+.btn-purple.upload {
+  color: #fff;
+  padding: 8px 16px;
+}
+
+.form-check-input:checked {
+  background-color: #6A38E9;
+  border-color: #6A38E9;
+ 
+}
+.form-check-input:focus{
+
+  box-shadow: none;
+}
+
+

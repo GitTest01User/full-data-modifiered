@@ -1,0 +1,233 @@
+.ScrollStyle
+{
+    max-height:400px;
+    overflow-y: scroll;
+    background:#fff;
+}
+
+.modal-content{
+    border-radius:15px;
+}
+.btn-close{
+    font-size:10px;
+    border:1px solid #464444;
+    border-radius:50%;
+}
+
+#QuestionBox.slick-slider {
+    padding: 0;
+}
+
+.question {
+    background: transparent;
+    border: none;
+    margin-right: 15px;
+    width: 100%;
+	min-height: 280px;
+}
+
+.question .card-header {
+     border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #433E64;
+    border-radius: 9px;
+    padding: 16px 12px;
+    background: #F5F7FB;
+	min-height: 78px;
+	display: flex;
+	align-items: center;
+}
+
+.question .card-header p {
+    margin: 0;
+}
+
+.question .QuestionText span {
+    margin-left: 6px;
+}
+
+.question .card-body {
+    padding: 0;
+    margin: 6px 0;
+}
+
+.question .card-footer {
+    background: none;
+    padding: 0;
+    border: none;
+    margin: 0 0 30px 0;
+    border-radius: 0;
+	width: 100%;
+}
+
+.question select {
+   font-weight: 600;
+    color: #433E64;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1px solid #F5F7FB;
+/*     background-color: rgba(245, 247, 251, 0.44); */
+	background-color: #f5f7fb;
+}
+
+.question select:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.question select option {
+    color: #333;
+}
+
+.ProdQuestions-bordered {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+	.question {
+    display: block;
+		min-height: 230px;
+}
+
+.question .card-header {
+    width: 100%;
+}
+
+.question .card-footer {
+    width: 100%;
+}
+	
+	#previousbtn, #nextbtn, #NonWorkingPricebtn, #ExactPriceBtn {
+    width: 100%;
+    display: block;
+    margin: 8px auto !important;
+    float: none;
+}
+}
+
+.AnswersBox {
+    padding: 30px 20px !important;
+    overflow-y: scroll;
+	max-height: 808px;
+}
+
+.AnswersBox ul {
+    list-style: none;
+    padding: 0;
+}
+
+.AnswersBox ul li {
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: rgba(67, 62, 100, 0.71);
+}
+
+.AnswersBox ul li:last-child {
+    display: inline-block;
+    padding: 4px 19px;
+    margin: 5px 0 0 0;
+    border-radius: 4px;
+    border: 1px solid #DCE2FF;
+    background: #F4F4FF;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.customerdetailsrow {
+    background: #FCFCFF;
+border: 1px solid #DCE2FF;
+border-radius: 11px;
+padding: 60px 40px;
+	margin-right: 0;
+}
+
+.customerdetailsrow .form-control {
+    padding: 14px 18px;
+    background: rgb(227 235 255 / 44%);
+    border: 1px solid #EFF0F7;
+    border-radius: 11px;
+}
+
+.customerdetailsrow label {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #170F49;
+    margin: 20px 0 14px;
+}
+
+.customerdetailsrow h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.customerdetailsrow .form-control:disabled {
+        background: #ebedf8;
+    color: #333333;
+    font-weight: 500;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+
+.valuecheckwrap #pd p {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: normal;
+}
+
+.valuecheckwrap #pd span {
+    font-size: 14px;
+}
+
+.valuecheckwrap .disclaimertxt {
+    margin-top: 10px;
+    font-size: 14px !important;
+    display: block;
+}
+
+.valuecheckwrap #prex {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.valuecheckwrap #pd .col-md-4 {
+    padding: 0 30px;
+}
+
+.breadcrumb-item {
+	color: #A8A8A8;
+font-family: font-medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 23px;
+}
+
+.breadcrumb-item.active a{
+    color: #333;
+    font-weight: 600;
+}
+
+.ErrorMsg {
+    display: block;
+    color: red;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.price-social-btn {
+	color: #170F49;
+font-family: font-medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81.23" height="78.674" viewBox="0 0 81.23 78.674">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ab01fc"/>
+      <stop offset="1" stop-color="#3325b0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_140426" data-name="Group 140426" transform="translate(-9502.069 -1229.788)">
+    <path id="Path_149560" data-name="Path 149560" d="M9502.809,1252.995h-24.993s-.166.885-.356,18.935,4.949,18.862,22.095,18.659c14.264-.168,23.156-.32,23.174-12.784s0-10.919,0-10.919" transform="translate(37.945 1.694)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-width="4"/>
+    <path id="Icon_feather-thumbs-up" data-name="Icon feather-thumbs-up" d="M21.654,13.881V7.663A4.663,4.663,0,0,0,16.99,3L10.772,16.99v17.1H28.307a3.109,3.109,0,0,0,3.109-2.643l2.145-13.99a3.109,3.109,0,0,0-3.109-3.575ZM10.772,34.09H6.109A3.109,3.109,0,0,1,3,30.981V20.1A3.109,3.109,0,0,1,6.109,16.99h4.663" transform="translate(9537.897 1234.272)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Path_149561" data-name="Path 149561" d="M9235.32,1244.39a64.166,64.166,0,0,1,7.45,0,5.426,5.426,0,0,1,3.46,2.651c.566,1.215.64,4.874.64,4.874" transform="translate(268.84 2.137)" fill="none" stroke="#3c23b6" stroke-linecap="round" stroke-width="4"/>
+    <g id="Ellipse_1339" data-name="Ellipse 1339" transform="translate(9521.466 1295.508)" fill="none" stroke="#3c23b6" stroke-width="4">
+      <circle cx="6.477" cy="6.477" r="6.477" stroke="none"/>
+      <circle cx="6.477" cy="6.477" r="4.477" fill="none"/>
+    </g>
+    <g id="Ellipse_1340" data-name="Ellipse 1340" transform="translate(9544.784 1295.508)" fill="none" stroke="#3c23b6" stroke-width="4">
+      <circle cx="6.477" cy="6.477" r="6.477" stroke="none"/>
+      <circle cx="6.477" cy="6.477" r="4.477" fill="none"/>
+    </g>
+    <path id="Stroke_3" data-name="Stroke 3" d="M0,24.9C0,6.226,6.486,0,25.94,0s25.94,6.226,25.94,24.9S45.393,49.8,25.94,49.8,0,43.574,0,24.9Z" transform="translate(9531.42 1229.788)" opacity="0.2" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

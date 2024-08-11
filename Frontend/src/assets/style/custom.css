@@ -1,0 +1,406 @@
+#PExchangeProgram .owl-nav button.owl-next, #PExchangeProgram .owl-nav button.owl-prev {
+  font-size: 50px !important;
+}
+
+#PResellProgram .owl-nav button.owl-next, #PResellProgram .owl-nav button.owl-prev {
+  font-size: 50px !important;
+}
+
+
+#smart_header .wrapper_smartheader{
+    background:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#smart_header .wrapper_smartheader .img-fluid{
+    height:90px;
+}
+#smart_header .wrapper_smartheader .first_section{
+background-image: url('../images/smartsell_child/path2.svg'); background-repeat: no-repeat; background-size: cover;
+}
+
+#schedule_pickup .wrapper_schedule h5{
+  color:#070139;
+}
+#schedule_pickup .samsung_tv{
+  background:#f9f1fe;
+  border-radius:10px;
+}
+#schedule_pickup .samsung_tv h1{
+  font-size:24px;
+  color:#201F20;
+}
+#schedule_pickup .wrapper_schedule .btn-primary{
+  background:#f9f1fe;
+  color:#3C23B6;
+  border:1px solid #3C23B6;
+  border-radius:8px;
+}
+#schedule_pickup .smart_guarantee{
+  background: transparent linear-gradient(288deg, #AB01FC 0%, #3325B0 100%) 0% 0% no-repeat padding-box;
+  border-radius:10px;
+}
+#schedule_pickup .smart_guarantee h6{
+  color:#fffaf8;
+  font-size:18px;
+}
+#schedule_pickup .smart_guarantee img{
+  height:40px;
+}
+#schedule_pickup .new_appliance{
+  background:#f9f0fe;
+  border-radius:10px;
+  margin-top:80px;
+}
+#schedule_pickup .new_appliance p{
+  font-size:17px;
+  color:#201F20;
+}
+#schedule_pickup .new_appliance .btn-primary{
+  background: #F05A29 ;
+  color:#fff;
+  font-weight:600;
+  border:none;
+}
+#schedule_pickup .new_appliance .btn-primary:hover{
+  background: #eb450f ;
+}
+#schedule_pickup .new_appliance img{
+  height:140px;
+}
+#schedule_pickup .new_appliance h5{
+  color:#070139;
+}
+#schedule_pickup .form_box label{
+  color:#201F20;
+}
+#schedule_pickup .schedule_form{
+  padding:12px 8px;
+  border:1px solid #ddd;
+  width:100%;
+  border-radius: 5px;
+}
+#schedule_pickup .schedule_form::placeholder{
+  color:#8D8AA3;
+}
+#schedule_pickup .form_box a{
+  position: absolute;
+  right:10%;
+  margin-top:5px;
+  color:#3C23B6;
+}
+#schedule_pickup .form_box .btn-primary{
+  background: transparent linear-gradient(288deg, #AB01FC 0%, #3325B0 100%) 0% 0% no-repeat padding-box;
+  color:#fff;
+  font-weight:600;
+  border:none;
+}
+
+#smart_product_details .samsung_tv{
+  background: #f9f0fe;
+  border-radius:10px;
+}
+#smart_product_details .samsung_tv h1{
+  font-size:24px;
+  color:#201F20;
+}
+
+#product_heading .product_details h5{
+  color:#070139;
+}
+#smart_product_details .wrapper_product .btn-primary{
+  background:#f9f1fe;
+  color:#3C23B6;
+  border:1px solid #3C23B6;
+  border-radius:8px;
+}
+#buyback_guaranteed .product_cards{
+  background: transparent linear-gradient(292deg, #AB01FC 0%, #3325B0 100%) 0% 0% no-repeat padding-box;
+  margin-top:80px;
+  border-radius:10px;
+}
+#buyback_guaranteed .product_cards h6{
+  font-size:18px;
+}
+#buyback_guaranteed .product_buyback .btn-primary{
+ background-color: #ffffff1a;
+  border:none;
+}
+#smart_btn .smart_buy_button .btn-primary{
+  background: #F05A29 0% 0% no-repeat padding-box;
+  color:#fff;
+  border:1px solid #F05A29;
+  border-radius:10px;
+}
+#smart_btn .smart_buy_button .btn-primary:hover{
+  background: #eb450f;
+}
+
+
+
+
+/* progressbar */
+.multi-steps > li.is-active ~ li:before, .multi-steps > li.is-active:before {
+  content: counter(stepNum);
+  font-family: inherit;
+  font-weight: 700;
+}
+.multi-steps > li.is-active ~ li:after, .multi-steps > li.is-active:after {
+  background-color: #ededed;
+}
+
+.multi-steps {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.multi-steps > li {
+  counter-increment: stepNum;
+  text-align: center;
+  display: table-cell;
+  position: relative;
+  color: #070139;
+  font-weight:600;
+}
+.multi-steps > li:before {
+  content: "";
+  content: "✓;";
+  content: "𐀃";
+  content: "𐀄";
+  content: "✓";
+  display: block;
+  margin: 0 auto 4px;
+  background: linear-gradient(#AB01FC,#3325B0);
+  width: 36px;
+  height: 36px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: bold;
+  border-width: 2px;
+  border-style: solid;
+  /* border-color: #3325B0; */
+  border-radius: 50%;
+  color:#fff;
+}
+.multi-steps > li:after {
+  content: "";
+  height: 3px;
+  width: 89%;
+  background: #3C23B6;
+  position: absolute;
+  top: 16px;
+  left: 55%;
+  z-index: 999;
+}
+.multi-steps > li:last-child:after {
+  display: none;
+}
+.multi-steps > li.is-active:before {
+  background: #fff !important;
+  color:#000;
+  border-color: #3325B0;
+}
+.multi-steps > li.is-active ~ li {
+  color: #808080;
+}
+.multi-steps > li.is-active ~ li:before {
+  background-color: #ededed;
+  border-color: #ededed;
+}
+
+.border-class{
+  border-right:1px solid #ddd;
+}
+
+@media(max-width:990px){
+  .border-class{
+    border-right:unset;
+  }
+  .multi-steps > li {
+    font-size: 12px;
+  }
+}
+@media(max-width:500px){
+  .multi-steps > li {
+    font-size: 10px;
+  }
+  #schedule_pickup .smart_guarantee h6{
+    color:#fffaf8;
+    font-size:12px;
+  }
+  #schedule_pickup .smart_guarantee img{
+    height: 22px;
+  }
+
+  .multi-steps > li:after {
+    height: 3px;
+    width: 65%;
+    top: 11px;
+    left: 66%;
+
+  }
+  .multi-steps > li:before {
+
+    margin: 0px auto 4px;
+    background: linear-gradient(#AB01FC,#3325B0);
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
+    border-width: 2px;
+   
+}
+#smart_header .wrapper_smartheader .first_section{
+  background-image: url('../images/smartsell_child/path3.svg'); background-repeat: no-repeat; background-size: cover;
+  }
+  #schedule_pickup .new_appliance img {
+    height: 100px;
+  }
+  
+ p{
+    font-size: 10px ;
+  }
+  h5{
+    font-size: 12px;
+  }
+  h4{
+    font-size: 13px;
+  }
+  h2{
+    font-size: 18px;
+  }
+
+  #schedule_pickup .form_box label{
+    font-size: 12px !important;
+  }
+  #schedule_pickup .schedule_form{
+    font-size: 12px;
+  }
+  #schedule_pickup .form_box a{
+    font-size: 12px !important;
+  }
+}
+
+
+
+
+/*  about us css */
+
+.hero_section .about-us{
+  position: absolute;
+  right: 52%;
+  bottom: 1.25rem;
+  left: 12%;
+  top: 48%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: left;
+}
+.hero_section .hero-button{
+  margin-top: 8.9rem;
+} 
+.about-info .about-para{
+  font-size: 18px;
+  color: #555555;
+}
+.about-info .read-more{
+  color: #3C23B6;
+}
+.about-counter .counter-number{
+  color: #070139;
+}
+
+
+.about-counter .counter-subhead{
+  color: #555555;
+}
+.we-offer{
+  background: transparent linear-gradient(328deg, #AB01FC 0%, #3325B0 100%) 0% 0% no-repeat padding-box;
+  opacity: 0.5;
+}
+.card-body .news-heading{
+  color: #070139;
+}
+.career-subsection .career-heading{
+  font-size: 32px;
+}
+.life-digi2l .life-digi2l-heading{
+  color: #555555;
+  font-size: 18px;
+}
+
+
+.testimonial_section{
+  padding-bottom: 30px;
+}
+/* cards */
+
+/* .card-container {
+  flex: 300px;
+  margin: 30px;
+} */
+.card-container .card {
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+}
+.card-container .card a {
+  padding: 30px;
+  width: 100%;
+  height: 400px;
+  border: 2px solid black;
+  background: white;
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: 0.25s ease;
+}
+.card-container .card a:hover {
+  border-color: #5bc0eb;
+}
+.card-container .card a:hover .card--display {
+  display: none;
+}
+.card-container .card a:hover .card--hover {
+  display: block;
+}
+.card-container .card a .card--display i {
+  font-size: 60px;
+  margin-top: 200px;
+}
+.card-container .card a .card--display h2 {
+  margin: 20px 0 0;
+}
+.card-container .card a .card--hover {
+  display: none;
+}
+.card-container .card a .card--hover h2 {
+  margin: 20px 0;
+}
+.card-container .card a .card--hover p {
+  font-weight: normal;
+  line-height: 1.5;
+}
+.card-container .card a .card--hover p.link {
+  margin: 20px 0 0;
+  font-weight: bold;
+  color: #5bc0eb;
+}
+.card-container .card .card--border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: 2px dashed black;
+  z-index: -1;
+}
+.card-container .card.card--dark a {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.card-container .card.card--dark a .card--hover .link {
+  color: #fde74c;
+}

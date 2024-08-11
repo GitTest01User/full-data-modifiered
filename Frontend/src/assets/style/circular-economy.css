@@ -1,0 +1,303 @@
+@media (max-width: 576px) { 
+    #hero_banner .wrapper_herobanner{
+height: 80vh !important;
+    }
+    #hero_banner .wrapper_herobanner h1 {
+    padding-top: 100px !important;
+}
+#hero_banner > div > div > div.row.justify-content-center > div.col-lg-5.mt-5 > img{
+    position:unset !important;
+    height:auto !important;
+}
+.testimonial_section .testimonial_box-top{
+    justify-content: end !important;
+    min-height: 270px !important;
+}
+body > section.section_bg.Become_partnetSection.py-5 > div.container > div > div > div.col-lg-8.col-md-8.border-start > h3{
+    font-size: 14px;
+    text-align: left !important;
+    padding-left: 13px;
+    padding-top: 20px;
+}
+}
+/* jayant code end */
+
+        .navbar .dropdown-toggle::after {
+            display: none;
+        }
+
+
+
+        .slick-next:before {
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            content: "\f178" !important;
+            color: #555555 !important;
+            font-size: 38px;
+
+        }
+
+        .slick-prev:before {
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            content: "\f177" !important;
+            color: #555555 !important;
+            font-size: 38px;
+        }
+
+        .slick-prev {
+            left: -70px;
+        }
+
+        .slick-next {
+            right: -50px;
+        }
+@media(max-width:1250px){
+    #hero_banner > div.wrapper_herobanner.d-none.d-lg-block > div > div > div.col-lg-5.mt-5 > img{
+        height: 417px !important;
+    }
+}
+        @media(max-width:1024px) {
+
+            .slick-prev {
+                left: -43px;
+
+            }
+
+            .slick-next {
+                right: -23px;
+            }
+
+            .slick-prev:before {
+                font-size: 28px;
+            }
+
+            .slick-next:before {
+                font-size: 28px;
+            }
+        }
+
+        /* Smartphones (portrait and landscape) ----------- */
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            .slick-track{
+                margin: 50px 0px 15px 0px !important;
+               }
+            .slick-next:before {
+                font-size: 20px !important;
+                color: #3325B0 !important;
+            }
+
+            .slick-prev:before {
+                font-size: 20px !important;
+                color: #3325B0 !important;
+            }
+            #hero_banner .wrapper_herobanner{
+height: 100vh !important;
+    }
+    #hero_banner .wrapper_herobanner{
+    background-image: url(../images/corporateEnquiry/circular-economy/mobile/mobile_bg.png) !important;
+    background-repeat: no-repeat !important;
+    /* background-size: 100% 100% !important; */
+    background-position: bottom !important;
+            }
+            #bottom_banner .wrapper_bottombanner{
+                background-image: url(../images/corporateEnquiry/circular-economy/mobile/mobile_bottom.png) !important;
+                background-repeat: no-repeat !important;
+                /* background-size: 100% 100% !important; */
+                background-position: bottom !important;
+                        }
+                        #bottom_banner2 .wrapper_bottombanner2{
+                            background-image: url(../images/corporateEnquiry/circular-economy/mobile/mobile_bg_bg.png) !important;
+                            background-repeat: no-repeat !important;
+                            /* background-size: 100% 100% !important; */
+                            background-position: bottom !important;
+                                    }
+                        .wrapper_bottombanner .h1
+                        {
+                                position: relative;
+                                bottom:10%
+                        }
+
+        }
+        @media only screen and (max-device-width: 768px) {
+            .slick-next:before {
+                font-size: 20px !important;
+                color: #3325B0 !important;
+            }
+
+            .slick-prev:before {
+                font-size: 20px !important;
+                color: #3325B0 !important;
+               
+            }
+
+        
+        }
+
+
+
+       
+
+
+        #hero_banner .wrapper_herobanner h1{
+    padding-top:100px;
+}
+
+        #hero_banner .wrapper_herobanner h1{
+    padding-top:100px;
+}
+
+
+.customNav .nav-link{
+  color: #3C23B6;
+ }
+    
+
+ #Digi2lPartner{
+    cursor: grab;
+ }
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #F3EDFF!important;
+    margin: 0 3px;
+}
+.owl-dots button.owl-dot.active, .owl-nav button {
+    background-color: #4E13CD!important;
+}
+ #howItWorks .owl-dots button.owl-dot.active, .owl-nav button {
+    background-color: #4E13CD!important;
+}
+ #howItWorks .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(255,255,255)!important;
+    margin: 0 3px;
+}
+#Sustainability_Goals .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ffffff!important;
+    margin: 0 3px;
+}
+#Sustainability_Goals .owl-dots button.owl-dot.active, .owl-nav button {
+    background-color: #4E13CD!important;
+}
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    font-family: font-regular;
+    color:#A8A8A8;
+}
+.breadcrumb-item.active {
+  color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+@media (max-width: 768px) {
+    .main_heading,.life-digi2l-heading {
+            text-align: center;
+     } 
+     #breadlink
+     {
+         width: 100%;
+        font-size: 12px;
+        font-family: Poppins;
+        line-height: 23px;
+     }
+     .breadcrumb-item.active {
+        color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    }
+    .circular_economy_1 h1
+    {
+        color: #070139;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .circular_economy_1 p
+    {
+        color: #070139;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    #revo h1
+    {
+        color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20px!important;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    #revo .container-fluid
+    {
+    transform: translateY(-150px)!important;
+    }
+    #Sustainability_Goals
+    {
+        margin-top: -50px!important;
+    }
+    #Sustainability_Goals h1 {
+        font-size: 20px !important;
+    }
+    .green_exchange
+    {
+        margin-top: 30px;
+    }
+    .green_exchange h1{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20px!important;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .green_exchange .container-fluid{
+    transform: translateY(-150px)!important;
+    }
+    #bottom_banner2
+    {
+        margin-top: -100px!important;
+    }
+    #Sustainability_Goals
+    {
+        margin-top: -100px!important;
+    }
+}
+    .circular_economy_1 P
+    {
+        color: #555;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 220.15%;
+    }

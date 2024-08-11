@@ -1,0 +1,228 @@
+.navbar .dropdown-toggle::after {
+    display: none;
+}
+
+/* hero slider start */
+.hero_section .carousel-item{
+  height:600px;
+}
+.hero_section .carousel-item h1{
+  padding-top:100px;
+}
+.hero_section .carousel-item .img-fluid{
+  margin-top:90px;
+}
+
+/* end */
+
+.slick-next:before{
+  font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f178" !important;
+  color: #555555 !important;
+font-size: 38px;
+
+}
+.slick-prev:before{
+  font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f177" !important;
+  color: #555555 !important;
+  font-size: 38px;
+}
+.slick-prev{
+  left: -70px;
+}
+.slick-next{
+  right: -50px;
+}
+
+@media(max-width:1024px){
+  .slick-prev{
+  left: -43px;
+  
+}
+.slick-next{
+  right: -23px;
+}
+.slick-prev:before{
+  font-size: 28px;
+}
+.slick-next:before{
+  font-size: 28px;
+}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .slick-next:before {
+  font-size: 20px !important;
+  color:#3325B0 !important;
+}
+.slick-prev:before {
+  font-size: 20px !important;
+  color:#3325B0 !important;
+}
+}
+
+@media only screen and (max-device-width: 768px){
+  .slick-next:before {
+  font-size: 20px !important;
+  color:#3325B0 !important;
+}
+.slick-prev:before {
+  font-size: 20px !important;
+  color:#3325B0 !important;
+  /* margin-left:10px; */
+}
+.hero_section .carousel-item{
+  height: 100vh;
+}
+.p-sm-4{
+
+  padding: 20px;
+}
+}
+
+
+/* 06-09-22 */
+/* hero slider start */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .p-sm-4{
+
+    padding: 20px;
+  }
+
+.hero_section .carousel-item{
+  height:80vh;
+}
+.hero_section .carousel-item h1{
+  padding-top:0px;
+}
+.hero_section .carousel-item .img-fluid{
+  margin-top:00px;
+}
+.Imgslide3{
+  height: 265px !important;
+}
+
+	.carousel-inner .carousel-item:nth-child(1){
+  background-image:url('../images/slider_child_new/home_1.webp')!important;
+  height:calc(100vh - 60px);
+  background-position:bottom;
+}
+.carousel-inner .carousel-item:nth-child(2){
+  background-image:url('../images/slider_child_new/home_2.webp')!important;
+  height:calc(100vh - 60px);
+  background-position:bottom;
+}
+.carousel-inner .carousel-item:nth-child(3){
+  background-image:url('../images/slider_child_new/home_3.webp')!important;
+  height:calc(100vh - 60px);
+  background-position:bottom;
+}
+.carousel-inner .carousel-item:nth-child(4){
+  background-image:url('../images/slider_child_new/home_4.webp')!important;
+  height:calc(100vh - 60px);
+  background-position:bottom;
+}
+.carousel-inner .carousel-item:nth-child(5){
+  background-image:url('../images/slider_child_new/home_5.webp')!important;
+  height:calc(100vh - 60px);
+  background-position:bottom;
+}
+.btn-simple_4 {
+  color: #ff7b50;
+  background: no-repeat padding-box #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size:12px !important;
+  text-align: start;
+}
+}
+.lightboxContainer {
+  position:relative;
+  display:inline-block;
+}
+ 
+.lightboxContainer:after {
+  content:url("../images/playbutton.png");
+  z-index:999;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-32px;
+  margin-top:-32px;
+  
+}
+ 
+.lightboxContainer:hover:after {
+  opacity:1;
+  transition: all .3625s ease;
+  opacity:0.8;
+}
+ 
+.lightboxContainer img {
+  width: 100%;
+}
+
+.tv:hover {
+  content: url('../images/tv_.png');
+  cursor: pointer;
+}
+.refrigerator:hover {
+  content: url('../images/refrigerator_.png');
+  cursor: pointer;
+}
+.ac:hover {
+  content: url('../images/ac_.png');
+  cursor: pointer;
+}
+.washing-machine:hover {
+  content: url('../images/washingmachine_.png');
+  cursor: pointer;
+}
+
+.pum-overlay.pum-active,
+	.pum-overlay.pum-active .popmake.active {
+    		display: block !important;
+	}
+
+
+	header {
+  position: relative;
+  background-color: black;
+  height: 60vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
